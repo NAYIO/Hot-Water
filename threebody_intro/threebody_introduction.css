@@ -1,0 +1,147 @@
+body{
+    color: aliceblue;
+    margin: 0;
+}
+#background_pic{
+    width: 100%;
+    z-index: -1;
+}
+#main{
+    position: absolute;
+    top: 100px;
+    left: 14%;
+    width: 70%;
+    background: rgba(25, 23, 23, 0.7);
+    padding: 15px 25px 20px 25px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+#sort{
+    border-bottom: 2px solid gray;
+}
+#title{
+    font-size: 33px;
+    padding: 15px 10px;
+}
+#introduction{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+}
+#main_intro{
+    margin-left: 16px;
+    flex-basis: 66%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#info_rate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#cover img{
+    width: 220px;
+    margin: 0px 6px;
+}
+#information{
+    flex-basis: 62%;
+}
+#information li{
+    list-style-type: none;
+    line-height: 30px;
+}
+#rate li{
+    list-style-type: none;
+}
+#rating_title{
+    padding-bottom: 10px;
+}
+#rating_title::after{
+    content: "8.8";
+    font-size: 36px;
+    font-weight: 100;
+    position: absolute;
+    top: 108px;
+}
+.rating_per{
+    display: inline-block;
+    height: 10px;
+    background-color: chocolate;
+    margin: 0 2px 0px 4px;
+}
+#rating_per1{
+    width: 64px;
+}
+#rating_per2{
+    width: 33px;
+}
+#rating_per3{
+    width: 7px;
+}
+#rating_per4{
+    width: 0px;
+}
+#rating_per5{
+    width: 0px;
+}
+.rating_num{
+    font-size: 10px;
+}
+#buttons{
+    margin: 12px 0;
+}
+#buttons span{
+    margin: 0 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+#buttons span:hover{
+    background-color: rgba(146, 136, 136, 0.767);
+    
+}
+#stars{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+.star{
+    width: 20px;
+}
+#acount_rating{
+    margin-left: 10px;
+}
+#acount_idea{
+    margin-left: 30px;
+    margin-top: 57px;
+}
+#book_introduction,#writer_introduction{
+    line-height: 30px;
+    padding-bottom:20px ;
+}
+#book_introduction_title,#writer_introduction_title,#others_rate_title{
+    padding: 10px;
+    font-size: 20px;
+    border-top: 1px solid grey;
+}
+#book_introduction_font,#writer_introduction_font{
+    text-indent: 2em;
+    margin: 0 10px;
+}
+.rate_phara{
+    margin: 10px;
+    text-indent: 2em;
+    line-height: 30px;
+}
+.rate_account{
+    padding: 10px 0 15px 0;
+    text-align: right;  
+}
+/*@media screen and (orientation:portrait){
+    #background_pic{
+        height: 100vh;
+    }
+}*/

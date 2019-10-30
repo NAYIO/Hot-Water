@@ -34,19 +34,19 @@
         <img class="image1" name="img" src="p4.jpg">
         <img class="image1" name="img" src="p5.jpg">
         <ul id="list">
-                <a  href="javascript:void(0)"><li >1</li></a>
-                <a  href="javascript:void(0)"><li >2</li></a>
-                <a  href="javascript:void(0)"><li>3</li></a>
+                <a  href="javascript:void(0)"><li value="0" onmouseover="btNumchange(this.value)" onmouseout="outBtchange()">1</li></a>
+                <a  href="javascript:void(0)"><li value="1" onmouseover="btNumchange(this.value)" onmouseout="outBtchange()">2</li></a>
+                <a  href="javascript:void(0)"><li value="2" onmouseover="btNumchange(this.value)" onmouseout="outBtchange()">3</li></a>
                 <!-- <a  href="javascript:void(0)"><li>4</li></a> -->
             </ul>
             <div class='left-arrow'>
                     <a  href="javascript:void(0)">
-                        <img class="image2" src="p2.jpg">
+                        <img class="image2" src="p2.jpg" onclick="leftarrowChange()">
                     </a>
             </div>
             <div class='right-arrow'>
                     <a  href="javascript:void(0)">
-                        <img class="image2" src="p3.jpg">
+                        <img class="image2" src="p3.jpg" onclick="rightarrowChange()">
                     </a>
             </div>
             

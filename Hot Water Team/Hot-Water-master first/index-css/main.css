@@ -1,0 +1,447 @@
+html{
+    font-size: 62.5%;
+    margin: 0;
+    border: 0;
+    overflow-x:hidden;
+    cursor:url('../pictures/image/Normal.cur') ,auto;
+}
+
+div,ul,li{
+    cursor:url('../pictures/image/Normal.cur'),  auto;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    overflow-x:hidden;
+    /*max-width:100%;
+    min-width:100%;*/
+}
+.header{
+    z-index: 16;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    height: 0.7rem;
+    background-color: rgba(117, 95, 73,0.7);;
+}
+.first-page{
+    position: absolute;
+    top: 0;
+}
+.share-with-you{
+    position: absolute;
+    top: 7rem;
+}
+.trade-this{
+    position: absolute;
+    top: 25rem;
+}
+.logo-img{
+    position: relative;
+    top: -0.4rem;
+    width: 0.7rem;
+    height: 0.7rem;
+}
+.all-logo{
+    position: relative;
+    top: 0.13rem;
+    left: 0.1rem;
+    width: 100%;
+    height: 100%;
+}
+.left-part{
+    display: flex;
+    width: 5rem;
+    height: 0.7rem;
+}
+.web-name{
+    position: relative;
+    font-size: 0.24rem;
+    font-weight: 600;
+    top: 0.15rem;
+    left: 0.2rem;
+    color:white;
+}
+.right-part{
+    width: 8rem;
+    height: 0.7rem;
+    position: relative;
+    left: 3rem;
+}
+.right-part span{
+    position: relative;
+    font-size: 0.24rem;
+    font-weight: 600;
+    top: -0.64rem;
+    left: 0;
+    color: white;
+    margin: 0.7rem;
+    cursor: pointer;
+}
+.right-part span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    border-bottom: 0.05rem solid rgb(236, 185, 91);;
+    transition: 0.3s all linear;
+}
+.right-part span:hover::before {
+    width: 100%;
+    left: 0;
+}
+.maina{
+    position: relative;
+    margin-top: 1rem;
+}
+.banner{
+    background: white;
+    float: left;
+    width: 13rem;
+    height: 5.7rem;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    top: 0.5rem;
+    left: 1.35rem;
+    border-top-left-radius: 0.2%;
+    border-top-right-radius: 0.2%;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 0.1rem #706d6d;
+}
+.banner-slide {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.slide1 {
+    background: url("../pictures/lunbo/main1.jpg");
+    background-size: 100% 100%;
+
+}
+.slide2 {
+    background: url("../pictures/lunbo/main2.png");
+    background-size: 100% 100%;
+}
+.slide3 {
+    background: url("../pictures/lunbo/main3.png");
+    background-size: 100% 100%;
+}
+.slide4 {
+    background: url("../pictures/lunbo/main4.jpg");
+    background-size: 100% 100%;
+}
+.slide5 {
+    background: url("../pictures/lunbo/main5.jpg");
+    background-size: 100% 100%;
+}
+.dots{
+    display: flex;
+    width: 13rem;
+    height: 0.3rem;
+    padding: 0;
+    position: relative;
+    left: 1.35rem;
+    top: 0.5rem;/*ggg*/
+    list-style: none;
+    box-shadow: 0rem 0rem 0.1rem #706d6d;
+}
+.dot{
+    width: 2.59rem;
+    height: 0.3rem;
+    background-color:rgb(121, 116, 116);
+    text-align: center;
+    border-left: 0.01rem solid black;
+    cursor: pointer;
+}
+#none{
+    width: 2.59rem;
+    height: 0.3rem;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-color:rgb(121, 116, 116);
+}
+#changeColor2 {
+    width: 0rem;
+    height: 0.3rem;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-color: #c4ad71;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+  );
+}
+
+#changeColor {
+    width: 2.59rem;
+    height: 0.3rem;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-color:  #c4ad71;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+  );
+}
+
+#changeColor {
+    width: 2.59rem;
+    height: 0.3rem;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+  );
+}
+.pre,.next{
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    position: absolute;
+    top:2.85rem;
+    font-size: 0.4rem;
+    color:white;
+    text-align:center;
+    background: rgba(128,128,128,0.5);
+}
+.pre{
+left:0.5rem;
+}
+.next{
+right:0.5rem;
+}
+.ending{
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    background-color: transparent;
+}
+.ending-text{
+    position: relative;
+    left: 3rem;
+    font-size: 0.2rem;
+    color: rgb(107, 99, 99);
+}
+.ending-text-strong{
+    font-size: 0.25rem;
+    color: #000;
+    left: 3rem;
+    position: relative;
+    top: 0.02rem;
+}
+#pg2{
+    position: fixed;
+    bottom: 0rem;
+    display: flex;
+    z-index: 20;
+}
+
+#pg{
+    width: 99vw;
+    height: 0.2rem;
+    /*border-radius: 10px;*/
+}
+
+
+::-webkit-scrollbar  
+{  
+    width: 16px;  /*滚动条宽度*/
+    height: 16px;  /*滚动条高度*/
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+  
+  box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background   : /*#ededed;*/#a9a9a2;
+  /*border-radius: 10px;*/
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+  border-radius   : 10px;
+  background-color: #c4ad71;
+  background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+  );
+}
+
+::-webkit-scrollbar-thumb:hover  
+{  
+  border-radius   : 10px;
+  background-color: black;
+  /*background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+  );*/
+}
+
+
+
+
+
+.right{
+    z-index: 9;
+    position: fixed;
+    top: 35vh;
+    right: 0;
+}
+.right_ul{
+    margin: 0;
+    padding: 0;
+}
+.right_ul li{
+    margin: 0.3rem;
+    padding: 0.15rem;
+    list-style-type: none;
+}
+.qq{
+    position: absolute;
+    right: 0.01rem;
+    top: -0.2rem;
+    background-image: url("../pictures/right/QQ.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.wechat{
+    background-image: url("../pictures/right/wechat.png");
+    position: absolute;
+    right: 0.01rem;
+    top: 0.7rem;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.weibo{
+    position: absolute;
+    right: 0.01rem;
+    top: 1.6rem;
+    background-image: url("../pictures/right/weibo.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.qq:hover{
+    cursor: pointer;
+    background-image: url("../pictures/right/qq2.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.wechat:hover{
+    cursor: pointer;
+    background-image: url("../pictures/right/wechat2.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.weibo:hover{
+    cursor: pointer;
+    background-image: url("../pictures/right/weibo2.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+}
+.frame-background{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(143, 138, 138);
+    opacity: 0.8;
+}
+.frame{
+    position: fixed;
+    left: 34vw;
+    top: 28vh;
+    display: none;
+    width: 4rem;
+    height: 5rem;
+    z-index: 15;
+    background-color: rgb(190, 186, 186);
+}
+#frame-img{
+    position: relative;
+    top: 1.5rem;
+    left: -0.2rem;
+    width: 3rem;
+    height: 3rem;
+}
+#frame-close{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: relative;
+    top: -2.4rem;
+    left: 3.4rem;
+    cursor: pointer;
+}
+
+.frame-text{
+    font-size: 0.4rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.8rem;
+}

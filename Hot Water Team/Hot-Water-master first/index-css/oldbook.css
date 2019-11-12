@@ -1,0 +1,119 @@
+#mainb{
+    width: 13rem;
+    border-radius: 0;
+    margin: 0.5rem 1.8rem;
+}
+.title{
+    text-align: left;
+    color: rgb(101, 93, 93);
+    font-size: 0.4rem;
+    font-family: "隶书";
+    border-bottom: 0.03rem solid #908a8a;
+    margin-left: -0.3rem;
+    margin-right: 0.4rem;
+}
+.old-book-content{
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.trade_div{
+    margin: 0 1%;
+    flex-basis: 27%;
+    background-color: rgba(177, 152, 128, 0.89);
+    border-radius: 2%;
+    padding: 0.3rem 0.2rem 0.15rem;
+    font-size: 0.26rem;
+}
+.trade_div:hover{
+    box-shadow: 0px -0.01rem 0.1rem 0.08rem rgb(145, 145, 139);
+}
+.cover_info{
+    display: flex;
+    flex-direction: column;
+}
+.cover{
+    width: 2rem;
+    margin: 0 auto;
+}
+.cover2{
+    margin: 0 4%;
+    width:3.5rem;
+}
+.info ul{
+    color: white;
+    font-size: 0.2rem;
+    list-style-type: none;
+    padding-left: 0.4rem;
+    line-height: 0.25rem;
+    margin: 0.06rem auto;
+}
+.info2 ul{
+    color: white;
+    font-size: 0.3rem;
+    list-style-type: none;
+    padding-left: 0.4rem;
+    line-height: 0.5rem;
+    margin: 0.17rem 0;
+    font-size: 0.16rem;
+}
+.price{
+    position: relative;
+    left: -0.1rem;
+    color: #fee791;
+    font-size: 0.24rem;
+}
+.buttons{
+    display: none;
+}
+.button{
+    font-size: 0.16rem;
+    border: 0.01rem solid;
+    padding: 0.03rem 0.1rem;
+    border-radius: 0.2rem;
+    margin-right: 0.2rem;
+}
+.button:hover{
+    background: rgba(170, 163, 163, 0.86);
+}
+.account_div{
+    border-top: 0.01rem solid;
+    margin-top: 0.05rem;
+    padding-top: 0.08rem;
+    display: flex;
+    flex-direction: row;
+}
+.account{
+    position: relative;
+    top: -0.07rem;
+}
+.account::before,.account2::before{
+    content: '';
+    background-image: url("../pictures/imagea/account.png");
+    background-size: 100%;
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: relative;
+    top: 0.05rem;
+}
+.showdetail{
+    cursor: pointer;
+    color: wheat;
+}
+.reason{
+    width: 70%;
+    display: none;
+    margin-left: 0.4rem;
+}
+.reason_title{
+    color: white;
+    font-size: 0.18rem;
+    margin: 0.2rem 0;
+}
+.reason_info{
+    color: white;
+    line-height: 0.5rem;
+    text-indent: 2em;
+    font-size: 0.16rem;
+}

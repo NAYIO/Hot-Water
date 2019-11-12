@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  color: #d5a548;
+  background: #ffffff;
+  z-index: 99;
+}
+#loadingbox{
+  margin: 0 auto;
+  position: fixed;
+  top: 35vh;
+  left: 42vw;
+  z-index: 100;
+}
+#loading {
+  width: 12vmin;
+  animation: rotation 2s infinite linear;
+}
+#loadingtext{
+  font-size: 5vmin;
+}
+  
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
+  }
+}

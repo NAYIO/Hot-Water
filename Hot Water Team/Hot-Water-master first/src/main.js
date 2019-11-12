@@ -251,13 +251,14 @@ $(document).ready(function() {
   $(function() {
     $(window).scroll(function() {
       var scrollTop = $(document).scrollTop();
-      if (scrollTop <=300) {
+      if (scrollTop <=500) {
         $(".homepage").css("border-bottom","0.05rem solid rgb(236, 185, 91)");
         $(".book-share").css("border-bottom","0");
         $(".old-book-trade").css("border-bottom","0");
         }else {
-          if(300<scrollTop&&scrollTop<=2000){
-            $(".detail").animate({top:'3rem'},'slow'); 
+          if(500<scrollTop&&scrollTop<=2000){
+            $(".detail").animate({top:'3rem'}, 'slow'); 
+            //$(".detail").stop();
             $(".book-share").css("border-bottom","0.05rem solid rgb(236, 185, 91)");
             $(".homepage").css("border-bottom","0");
             $(".old-book-trade").css("border-bottom","0");
@@ -351,12 +352,10 @@ $(document).ready(function(){
         $("#frame-close").attr("src","../pictures/image/close1.png");
         $("#frame-close").css("transform","rotate(180deg)");
         $("#frame-close").css("transition","0.3s");
-        console.log('a');
     });
     $("#frame-close").mouseleave(function(){
         $("#frame-close").attr("src","../pictures/image/close .png");
         $("#frame-close").css("transform","rotate(-180deg)");
-        console.log('b');
     });
 
 })

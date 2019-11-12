@@ -12,7 +12,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: 40rem;
+    height: 41rem;
     z-index: -2;
     overflow: hidden;
     background:linear-gradient(to bottom,rgb(226, 211, 128),white);

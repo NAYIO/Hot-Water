@@ -13,7 +13,7 @@ function init(){
         if(count===6){
             clearInterval(a);
         }
-    },5000);
+    },3000);
 }
 
 function randomInteger(low, high){
@@ -39,8 +39,8 @@ function createALeaf(){
     leafDiv.style.left = randomInteger(0,100)+'vw';
     //alert(leafDiv.style.left);
     leafDiv.style.webkitAnimationName = 'fade, drop';
-    var fadeAndDropDuration = durationValue(randomFloat(10, 22));
-    leafDiv.style.webkitAnimationDuration = fadeAndDropDuration+ ', ' + durationValue(randomFloat(30, 60));
+    var fadeAndDropDuration = durationValue(randomFloat(15, 22));
+    leafDiv.style.webkitAnimationDuration = fadeAndDropDuration+ ', ' + durationValue(randomFloat(18,  40));
     var leafDelay = durationValue(randomFloat(0, 5));
     leafDiv.style.webkitAnimationDelay = leafDelay + ', ' + leafDelay;
     //叶子

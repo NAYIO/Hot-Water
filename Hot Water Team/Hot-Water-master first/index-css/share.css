@@ -25,6 +25,7 @@
     margin: 0.5rem;
 }
 .share{
+    cursor: pointer;
     overflow: hidden;
     float: left;
     position: relative;
@@ -125,7 +126,7 @@
     top: 0.38rem;
     float: left;
     font-size: 0.2rem;
-    color: #a1a59e;
+    color:#c0c4bd;
 }
 .author_id{
     color: white;
@@ -140,7 +141,7 @@
     left: 0.2rem;
     top: 2.8rem;
     color:wheat;
-    font-size: 0.25rem;
+    font-size: 0.2rem;
     font-family: "宋体",sans-serif;
     font-weight: 300;
     letter-spacing: 0.04rem;
@@ -324,6 +325,7 @@
     height: 0.3rem;
 }
 .agree-icon img{
+    cursor: pointer;
     width: 0.3rem;
     height: 0.3rem;
     position: relative;
@@ -396,6 +398,7 @@
     color: #f5f2f2;
 }
 .intro{
+    cursor: pointer;
     overflow: hidden;
     float: left;
     position: relative;

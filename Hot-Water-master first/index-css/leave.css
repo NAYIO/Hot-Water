@@ -1,0 +1,66 @@
+body{
+    overflow-x: hidden;
+    z-index: 0;
+}
+#all{
+    z-index: 2;
+    overflow: hidden;
+    background-color: transparent;
+}
+#leaves{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 41rem;
+    z-index: -2;
+    overflow: hidden;
+    background:linear-gradient(to bottom,rgb(226, 211, 128),white);
+}
+.leafDiv {
+    position: absolute;
+    top:-1rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    z-index: -1;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+.leafDiv img {
+    width: 0.9rem;
+    height: 0.9rem;
+    z-index: -1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    transform-origin: 50% -100%;
+}
+
+@keyframes fade
+{
+    0%   { opacity: 1; }
+    50%  { opacity: 1; }
+    100% { opacity: 0.8; }
+}
+
+@keyframes drop
+{
+    0%   { transform: translate(0px, -50px); }
+    100% { transform: translate(0px, 4000px); }
+}
+
+@keyframes clockwiseSpin
+{
+    0%   { transform: rotate(-50deg); }
+    100% { 
+            transform: rotate(50deg);
+            opacity: 0; 
+        }
+}
+
+@keyframes counterclockwiseSpinAndFlip 
+{
+    0%   { transform: scale(-1, 1) rotate(50deg); }
+    100% { transform: scale(-1, 1) rotate(-50deg); }
+}

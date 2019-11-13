@@ -1,0 +1,185 @@
+#books_intro{
+    display: none;
+    z-index: 0;
+}
+#books_intro_guiders{
+    position: fixed;
+    left: 0;
+    top:35vh;
+}
+.books_intro_guider{
+    text-align: center;
+    height: 0.5rem;
+    border-radius: 0.2rem 0.2rem 0 0;
+    background-color: white;
+    box-shadow: 0 -0.03rem 0.1rem #474545;
+    cursor: pointer;
+    color: rgb(68, 67, 67);
+    padding: 0.1rem;
+    font-size: 0.2rem;
+    margin-left: 0.5rem;
+}
+#street_main{
+    top: 46.5rem;
+}
+#baiyexing_main{
+    top: 16.5rem;
+}
+#threeintro_main{
+    top: 31.5rem;
+}
+#littleprince_main{
+    top: 1.5rem;
+}
+#wukong_main{
+    top:61.5rem;
+}
+#threeintro_main,#baiyexing_main,#littleprince_main,#street_main,#wukong_main{
+    z-index: 2;
+    color: white;
+    font-size: 0.2rem;
+    position: absolute;
+    left: 14%;
+    width: 70%;
+    background: rgba(117, 95, 73, 0.89);
+    padding: 0.15rem 0.25rem 0.20rem 0.25rem;
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+.sort{
+    border-bottom: 0.02rem solid gray;
+}
+.threebody_title{
+    font-size: 0.33rem;
+    padding: 0.15rem 0.1rem;
+}
+.threebody_introduction{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 0.2rem;
+}
+.main_intro{
+    margin-left: 0.16rem;
+    flex-basis: 66%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.info_rate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.threebody_cover img{
+    width: 2.5rem;
+    height: 3.5rem;
+    margin: 0 0.06rem;
+}
+.information{
+    flex-basis: 60%;
+}
+.information ul{
+    margin-top: 0;
+    padding-left: 0.3rem;
+}
+.information li{
+    list-style-type: none;
+    line-height: 0.4rem;
+}
+.rate ul{
+    margin-top: 0;
+}
+.rate li{
+    line-height: 0.33rem;
+    list-style-type: none;
+}
+.rating_title{
+    padding-bottom: 0.1rem;
+}
+.rating_title::after{
+    content: "8.8";
+    font-size: 0.36rem;
+    font-weight: 100;
+    position: absolute;
+}
+.one_rating_per,.two_rating_per,.three_rating_per,.four_rating_per,.five_rating_per{
+    display: inline-block;
+    height: 0.10rem;
+    background-color: chocolate;
+    margin: 0 0.02rem 0 0.04rem;
+}
+.one_rating_per{
+    width: 0.64rem;
+}
+.two_rating_per{
+    width: 0.33rem;
+}
+.three_rating_per{
+    width: 0.07rem;
+}
+.four_rating_per{
+    width: 0;
+}
+.five_rating_per{
+    width: 0;
+}
+.rating_num{
+    font-size: 0.15rem;
+}
+.threebody_buttons{
+    margin-bottom: 0.12rem;
+}
+.threebody_button{
+    margin-right: 0.1rem;
+    border: 0.01rem solid;
+    border-radius: 0.2rem;
+    padding: 0.03rem 0.1rem;
+    cursor: pointer;
+}
+.threebody_button:hover{
+    background-color: rgba(146, 136, 136, 0.767);
+    
+}
+.stars{
+    position: relative;
+    top: 0.05rem;
+    cursor: pointer;
+}
+.star{
+    width: 0.2rem;
+}
+
+.acount_idea{
+    margin-left: 0.3rem;
+}
+.book_introduction,.writer_introduction{
+    line-height: 0.36rem;
+    padding-bottom: 0.2rem;
+}
+.book_introduction_title,.writer_introduction_title,.others_rate_title{
+    padding: 0.1rem;
+    font-size: 0.2rem;
+    border-top: 0.01rem solid grey;
+}
+.book_introduction_font,.writer_introduction_font{
+    text-indent: 2em;
+    margin: 0 0.1rem;
+}
+.rate_phara{
+    margin: 0.1rem;
+    text-indent: 2em;
+    line-height: 0.3rem;
+}
+.rate_account{
+    padding: 0.1rem 0 0.15rem 0;
+    text-align: right;  
+}
+.goback{
+    cursor: pointer;
+    color: orange;
+    font-size: 0.24rem;
+    position: relative;
+    left: 0.3rem;
+    top: -0.15rem;
+}

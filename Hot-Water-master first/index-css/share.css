@@ -1,0 +1,502 @@
+.main{
+    position: relative;
+    left: -1.6rem;
+}
+.main-content{
+    overflow: hidden;
+    position: relative;
+    top: 0rem;
+    left: 1.35rem;
+    margin: 0.5rem auto;
+    width: 13rem;
+    height: 8rem;
+}
+.elaborate{
+    position: absolute;
+    left: 0.3rem;
+    top: 0.1rem;
+    width: 19rem;
+    color: rgb(101, 93, 93);
+    font-size: 0.4rem;
+    font-family: "隶书";
+    border-bottom: 0.03rem solid #908a8a;
+}
+.content{
+    margin: 0.5rem;
+}
+.share{
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    left: 0.17rem;
+    top: 1.3rem;
+    bottom: 0.8rem;
+    width: 3.5rem;
+    height: 5.7rem;
+    border-radius: 5%;
+    background-color: rgba(177, 152, 128, 0.89);
+    margin: 0.2rem;
+}
+.share:hover{
+    box-shadow: 0px -5px 10px 0px  rgb(145, 145, 139),
+    -5px 0px 10px 0px rgb(145, 145, 139),
+    5px 0px 10px 0px rgb(145, 145, 139),
+    0px 5px 10px 0px rgb(145, 145, 139);
+}
+#first-id-image{
+    position: absolute;
+    left: 2.1rem;
+    top: 1.4rem; 
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    z-index: 2;
+}
+#first-id-image:hover{
+    transform: scale(1.3);
+    box-shadow: 5px 5px 10px rgb(53, 53, 52);
+}
+#second-id-image{
+    position: absolute;
+    left: 5.9rem;
+    top: 1.4rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    z-index: 2;
+}
+#second-id-image:hover{
+    transform: scale(1.3);
+    box-shadow: 5px 5px 10px rgb(53, 53, 52);
+}
+#third-id-image{
+    position: absolute;
+    left: 9.9rem;
+    top: 1.4rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    z-index: 2;
+}
+#third-id-image:hover{
+    transform: scale(1.3);
+    box-shadow: 5px 5px 10px rgb(53, 53, 52);
+}
+.share-cover{
+    position: absolute;
+    left: 0.2rem;
+    top: 0.2rem;
+    width: 1.5rem;
+    height: 2rem;
+    margin-top: 0.5rem; 
+}
+.book-name{
+    position: absolute;
+    left: 1.8rem;
+    top: 0.9rem;
+    font-size: 0.4rem;
+    font-family: "宋体",sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    font-style: normal;
+    color: #ffffff;
+}
+.sharer{
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+    width: 2rem;
+    height: 1rem;
+    margin: 0.02rem;
+}
+.sharer img{
+    position: absolute;
+    left: 0.2rem;
+    top: 0.7rem;
+    float: left;
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-top: 0.12rem;
+    margin-left: 0.1rem;
+}
+.author{
+    position: absolute;
+    left: 0.36rem;
+    top: 0.38rem;
+    float: left;
+    font-size: 0.2rem;
+    color:#c0c4bd;
+}
+.author_id{
+    color: white;
+    font-size: 0.24rem;
+    position: absolute;
+    top: 0.85rem;
+    left: 0.65rem;
+}
+.digest{
+    margin: 0.05rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 2.8rem;
+    color:wheat;
+    font-size: 0.2rem;
+    font-family: "宋体",sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+    font-style: normal;
+}
+.detail{
+    z-index: 2;
+    position: absolute;
+    word-break: break-all;
+    top: 50rem;
+    left: 0rem;
+    margin: 0.2rem;
+    color: rgb(240, 231, 237);
+    font-size: 0.17rem;
+    font-family: "宋体",sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.02rem;
+    font-style: normal;
+    text-indent: 2em;
+    line-height: 0.279rem;
+}
+.comment{
+    position: absolute;
+    top: 10.44rem;
+    left: 1.4rem;
+    z-index: 15;
+}
+.comment-sum{
+    position: absolute;
+    display: none;
+    left: -0.54rem;
+    width: 11.2rem;
+    height: 0.5rem;
+}
+.agree{
+    position: relative;
+    left: 0.05rem;
+    top: 0.01rem;
+    width: 3rem;
+    height: 0.48rem;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0.05rem;
+    text-align: center;
+    font-size: 0.3rem;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.disagree{
+    position: relative;
+    top: 0.01rem;
+    width: 0.5rem;
+    height: 0.48rem;
+    background-color: white;
+    margin-left: 0.1rem;
+    margin-right: 0.05rem;
+    text-align: center;
+    font-size: 0.3rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.first-lay-icon{
+    position: absolute;
+    left: 0.02rem;
+    top: 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0.05rem;
+}
+.second-lay-icon{
+    position: absolute;
+    left: 0.16rem;
+    top: 0.06rem;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.third-lay-icon{
+    position: absolute;
+    left: 0.11rem;
+    top: 0px;
+    width: 0.55rem;
+    height: 0.55rem;
+}
+.fourth-lay-icon{
+    position: absolute;
+    left: 0.08rem;
+    top: 0.02rem;
+    width: 0.48rem;
+    height: 0.48rem;
+}
+.comments-container{
+    display: none;
+    position: absolute;
+    top: 0.6rem;
+    left: 0rem;
+    width: 10rem;
+    height: 4.98rem;
+    color: black;
+    box-shadow: 0px -0.05rem 0.1rem 0px  rgb(145, 145, 139),
+    -0.05rem 0px 0.1rem 0px rgb(145, 145, 139),
+    0.05rem 0px 0.1rem 0px rgb(145, 145, 139),
+    0px 0.05rem 0.1rem 0px rgb(145, 145, 139);
+}
+.word{
+    position: absolute;
+    left: 0.67rem;
+    top: 0.09rem;
+    cursor: pointer;
+    font-size: 0.24rem;
+}
+.word-special{
+    position: absolute;
+    left: 0.03rem;
+    top: 0.04rem;
+}
+.comment-icon{
+    width: 100%;
+    height: 100%;
+}
+.share-with{
+    position: relative;
+    float: left;
+    width: 3rem;
+    height: 0.5rem;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    background-color: white;
+    text-align: center;
+    font-size: 0.3rem;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.comment-list{
+    position: absolute;
+    left: 0px;
+    width: 10rem;
+    background-color: white;
+}
+.comment-topbar{
+    width: 10rem;
+    height: 0.5rem;
+}
+.top-bar-title{
+    position: relative;
+    left: 0.1rem;
+    top: 0.05rem;
+    font-size: 0.3rem;
+    font-weight: 700;
+}
+.comment-list-header{
+    background-color: rgb(110, 132, 143);
+    height: 0.4rem;
+}
+.header-text{
+    position: relative;
+    left: 0.1rem;
+    font-size: 0.28rem;
+}
+.nest-comment{
+    list-style: none;
+    background-color: white;
+    margin: 0.1rem;
+}
+.comment-content{
+    width: 9rem;
+    height: 1.8rem;
+    margin: 0.15rem;
+    border-bottom: 0.01rem solid black;
+}
+.commenter-meta{
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.comment-id-name{
+    font-size: 0.2rem;
+}
+.comment-id-img img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.agree-icon img{
+    cursor: pointer;
+    width: 0.3rem;
+    height: 0.3rem;
+    position: relative;
+    top: 0.05rem;
+}
+.comment-text{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.2rem;
+    position: relative;
+    left: 0rem;
+    top: 0.1rem;
+}
+.comment-item{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.23rem;
+}
+.comment-time{
+    position: absolute;
+    right: 0.1rem;
+    font-size: 0.15rem;
+    color: rgb(109, 107, 103);
+}
+.more-content{
+    overflow: hidden;
+    position: relative;
+    top: 0rem;
+    left: 1.35rem;
+    margin: 0.5rem auto;
+    width: 13rem;
+    height: 9.2rem;
+}
+.more-introduction{
+    position: absolute;
+    left: 0.3rem;
+    top: 0.1rem;
+    width: 19rem;
+    color: rgb(101, 93, 93);
+    font-size: 0.4rem;
+    font-family: "隶书";
+    border-bottom: 0.03rem solid #908a8a;
+}
+.intro-title-text{
+    position: relative;
+    left: 0.2rem;
+    top: -0.5rem;
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: white;
+}
+.intro-title-text:hover{
+    color: #d5a548;
+}
+.intro-read-num{
+    position: relative;
+    left: 3.7rem;
+    top: -0.49rem;
+    color: #889097;
+    font-size: 0.2rem;
+}
+.intro-text{
+    position: relative;
+    left: 0rem;
+    top: -0.4rem;
+    margin-left: 0.1rem;
+    font-size: 0.162rem;
+    margin-right: 0.1rem;
+    letter-spacing: 0.02rem;
+    color: #f5f2f2;
+}
+.intro{
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    left: 2rem;
+    background-color: rgb(216, 194, 162);
+    top: 1.2rem;
+    bottom: 0.8rem;
+    width: 9rem;
+    height: 2rem;
+    margin-left: 0;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left, #abbd73 35%, #d6e2ad 100%);
+    background: -o-linear-gradient(left, #abbd73 35%, #d6e2ad 100%);
+    background: linear-gradient(to right, #abbd73 35%, #d6e2ad 100%);
+    color: darkslategray;
+    box-shadow: 1px 2px 1px -1px #777;
+    transition: all 300ms ease;
+    border-radius: 5px;
+    /*margin-bottom: 40px;*/
+}   
+.intro:hover{
+    background: linear-gradient(to right, #abbd73 0%, #abbd73 100%);
+}
+.shadow{
+    position: relative;
+  }
+.shadow:before{
+    z-index: 0;
+    content: "";
+    position: absolute;
+    bottom: 0.13rem;
+    right: 0.07rem;
+    width: 75%;
+    height: 40%;
+    top: 0;
+    box-shadow: 0 0.5rem 0.2rem #777;
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+    transition: all 150ms ease-in-out;
+  }
+  .shadow:hover::before {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    bottom: 20px;
+    z-index: -10;
+  }
+
+  #intro1{    
+    float: left;
+    position: absolute;
+    left: 2rem;  
+    top: 1.2rem;
+    bottom: 0.8rem;
+    width: 9rem;
+    height: 4rem;
+    margin-left: 0;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+    border-radius: 5px;
+    z-index: -1;  
+}   
+#intro2{    
+    float: left;
+    position: absolute;
+    left: 2rem;  
+    top: 3.5rem;
+    bottom: 0.8rem;
+    width: 9rem;
+    height: 4rem;
+    margin-left: 0;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+    border-radius: 5px;
+    z-index: -1;  
+}   
+#intro3{    
+    float: left;
+    position: absolute;
+    left: 2rem;  
+    top: 5.8rem;
+    bottom: 0.8rem;
+    width: 9rem;
+    height: 4rem;
+    margin-left: 0;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+    border-radius: 5px;
+    z-index: -1;  
+} 
+.circle {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  border-radius: 50%;
+  box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5), inset 0 0 0 25px antiquewhite;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align:right;
+  /*padding:0 20px 0 0;*/
+}

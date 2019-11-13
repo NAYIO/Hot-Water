@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="favicon3.ico" /> 
+        <script type="text/javascript" src="loading.js"></script>
+        <link type="text/css" href="../index-css/welcome.css" rel="stylesheet">
+        <link type="text/css" href="../index-css/loading.css" rel="stylesheet">
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+        <script>
+            (function (doc,win) {
+                var htmlEle=doc.documentElement;
+                var reload="orientationchange" in window ? "orientationchange":"resize";
+                function setFontsize () {
+                    //每次通过屏幕转动或者重新设置宽高的时候获取屏幕宽度
+                    var clientWidth=htmlEle.clientWidth;
+                    console.log(clientWidth);
+                    if(!clientWidth) return;
+                    //设置html标签的fontsize大小
+                    htmlEle.style.fontSize=20*(clientWidth/320)+"px";
+                        };
+                    win.addEventListener(reload,setFontsize, false);
+                    doc.addEventListener("DOMContentLoaded",setFontsize,false);
+                })(document,window);
+            </script>
+        
+        <link type="text/css" href="../index-css/leave.css" rel="stylesheet">
+        <link type="text/css" href="../index-css/main.css" rel="stylesheet">
+        <link type="text/css" href="../index-css/share.css" rel="stylesheet">
+        <link type="text/css" href="../index-css/oldbook.css" rel="stylesheet">
+        <link type="text/css" href="../index-css/threebody_introduction.css" rel="stylesheet">
+        <title>书籍推荐 BY Hot Water</title>
+        </div>
+    </head>
+    <body id="body">
+        <div class="all five" id="all">
+            <div class="header">
+                <div class="left-part">
+                    <div class="logo-img">
+                        <img class="all-logo" src="../pictures/images/logo.png"/>
+                    </div>
+                    <div class="left-text">
+                        <div class="web-name">书籍推荐 BY Hot Water</div>
+                    </div>
+                </div>
+                <div class="right-part">
+                    <span class="homepage" >
+                        首页
+                    </span>
+                    <span class="book-share">
+                        图书分享
+                    </span>
+                    <span class="old-book-trade">
+                        旧书交易
+                    </span>
+                </div>
+            </div>
+            <div id="four">
+                <div class="maina" id="maina">
+                    <div class="banner" >
+                        <div class="banner-slide slide1" index=0></div>
+                        <div class="banner-slide slide2" index=1></div>
+                        <div class="banner-slide slide3" index=2></div>
+                        <div class="banner-slide slide4" index=3></div>
+                        <div class="banner-slide slide5" index=4></div>
+                            <div class="pre" id="pre" onselectstart="return false">＜</div>
+                            <div class="next" id="next" onselectstart="return false">＞</div>
+                    </div>
+                    <div class="nav" id="nav">
+                        <ul class="dots">
+                            <li class="dot" id="changeColor" index=0><div class="progress"></div></li>
+                            <li class="dot" index=1><div class="progress"></div></li>
+                            <li class="dot" index=2><div class="progress"></div></li>
+                            <li class="dot" index=3><div class="progress"></div></li>
+                            <li class="dot" index=4><div class="progress"></div></li>
+                        </ul>
+                    </div>      
+                </div>
+                <div class="sharing" id="sharing">
+                    <div class="main">
+                        <div class="main-content">
+                            <div class="elaborate">精心挑选></div>
+                                <div class="content">
+                                    <div class="id-image">
+                                        <img id="first-id-image" src="../pictures/images/first-id.jpg" alt="first-id"/>
+                                        <img id="second-id-image" src="../pictures/images/second-id.jpg" alt="second-id"/>
+                                        <img id="third-id-image" src="../pictures/images/third-id.jpg" alt="third-id"/>
+                                    </div>
+                                    <div id="the-first-share" class="share">
+                                        <div class="ideas">
+                                            <div class="book-name">送你一颗子弹</div>
+                                            <div class="sharer">
+                                                <img class="smile" src="../pictures/images/smiley1.png" alt="smileone"/>
+                                                <div class="author">作者id:</div>
+                                                <div class="author_id">3356cchi</div>
+                                            </div>
+                                            <img class="share-cover" src="../pictures/images/first-cover.jpg" alt="first-cover"/>
+                                            <div class="digest">不气馁，有召唤，爱自由</div>
+                                            <div class="detail">
+                                                一直以来， 读书写字对于我来说，只是自己对真知的追问，让灵魂饱满的方式，它不是功利的武器去指责去抨击，
+                                                也不是虚荣的工具去彰显自身的优越不凡。它的美如此浩瀚让我们的灵魂恐惧却安宁。那些我读过的，如深涧流水般优美动人，
+                                                睿智幽默，朴实真切的文字中，给予我们冬日般和煦的感动，滋润着我们贫瘠干涸的思想，扶持着我们颠簸的成长，
+                                                送你一颗子弹，这本书就像穿透臭氧与大气的子弹，承载着生活的乐趣与智慧倏然击中了我的心。
+                                                刘瑜作为社会第三性别的政治学女博士，在饱受现代文明的冷嘲热讽下幽默的调侃着学术，政治，生活。
+                                                以一个小女人的心态唠叨调侃着鸡毛蒜皮的小事，思考着世界格局意识形态的大事。饱含着生活情趣和积极向上的生活态度。
+                                                一个真实存在但却是我无法想象的人生，在她的记录下，快乐与真知像春水般舒适的流入我的皮肤。
+                                                我常常在想人生向往自由，却仍在原地彳亍，我们有真挚肺腑之声，却不能婉转的歌唱，生活中很多因为微小就被看做不存在，
+                                                无所谓的无奈比比皆是。在这个社会中“成熟的人”永远是在告诉你，存在的就是合理的，而合理的就是不必追究的，
+                                                不必改变的。“成熟的人”还告诉你：这个世界，无商不奸无官不贪，所以战胜坏人的唯一方式就是成为更坏的人。
+                                                强迫他人用自己的方式去感知世界，这也是一种暴力。这个世界充满了约束和秘密，哪一个都不是最佳的几何形状。
+                                                当信仰被丢弃，成为趋利避害的本能时，我们的生活真的就变成了一个没有留下任何指纹与线索的犯罪现场。
+                                                政治意义上的自由，是不受干涉和免于恐惧，在一个民主健全的国家这应该是最基本的权利之一，然而非政治意义的自由，
+                                                则是一种自我支配的能力，能站在独立思考的立场上保持生命本质里最纯粹的东西，保持活泼的趣味和独立自我。
+                                                包括对真理，对情感，对人性的修行。         
+                                                我们在各种各样的慰藉中寻找安宁，用功绩和成就安抚未达到的期许。环顾四周身边的人和我们都是一样，就又心安理得的继续。
+                                                这本书，带给我关于政治制度和民族民主醍醐灌顶，恍然大悟般的顿悟，原来枯燥复杂的学术竟然可以如此活泼有趣，充满勃勃的生机，
+                                                生活的困顿和迷惘在自我思考中变成有益身心的动力和磨练。我在这本书里看到一个并不完美的世界带给我们细碎零散的感动，正在用乐观坦然滚成巨大的铁球，
+                                                用力的撞击着被桎梏的生活，被囚禁的笑容。
+                                            </div>     
+                                        </div>
+                                    </div>
+                                    <div id="the-second-share" class="share">
+                                        <div class="ideas">
+                                            <div class="book-name">悟空传</div>
+                                            <div class="sharer"></div>
+                                            <div class="sharer">
+                                                <img class="smile" src="../pictures/images/smiley1.png" alt="smileone"/>
+                                                <div class="author">作者id:</div>
+                                                <div class="author_id">3359f42</div>
+                                            </div>
+                                            <img class="share-cover" src="../pictures/images/secondcover.jpg" alt="second-cover"/>
+                                            <div class="digest">这个世界我爱过、战斗过</div>
+                                            <div class="detail">
+                                                这本书已经不是第一次阅读，但再次翻看时，仍然能感受到初看时的热血，感动。当我看到那个看了一遍又一遍的故事的主题时，我想到了《悟空传》。
+                                                从那个内容上看，《悟空传》是以《西游记》为原型创作的，在我看来颠覆了传统的西游观念。在这本书里唐僧不再是对诸佛毕恭毕敬的老实和尚，而是身在寺庙，
+                                                心里却想着让诸佛及所有佛法的条条框框都烟消云散的金蝉子。他心中信念之强大足以让诸佛畏惧。而孙悟空忘却了自己，被诸神欺骗与曾经的兄弟，朋友，兵戎相见。
+                                                猪八戒与阿月之间有单纯又真挚的感情，却被迫分离。沙僧不再只会挑担求援，而执着于修复琉璃盏重返天庭……
+                                                这本书把西游看成一个骗局，所有人都以为取得真经就可以修得正果，殊不知正果就是成为一座虚无的佛。孙悟空忘记了自己，
+                                                变成齐天大圣孙悟空，当他遇上曾经的自己美猴王孙悟空，谁胜谁负？就像人心中既有顺从，也有反抗，可究竟如何选择，才是真正的自己？
+                                                齐天大圣最后打败了美猴王，变成虚无的佛，也失去了真正的自己。
+                                                在《悟空传》中，神不再高高在上，清心寡欲，他们也有私心，处处想着操纵别人的命运，巩固自己的地位。我们都不想成为被操纵的工具，
+                                                于是有了反抗。孙悟空的反抗，是用自己的热血与万能的神袛奋战到底，虽然失败，但他可以说奋战过，不后悔。《悟空传》可能无法与《西游记》比肩，
+                                                但是可以看作是西游记放在现代，以年轻人的角度的一种解读。虽然它们创作于不同的时代，但都表达了对命运的抗争，对打破成规，挣脱束缚的渴望。
+                                                那些不愿意靠“赐”活着的人，渴望得到“请”的尊重，渴望成为自己。
+                                                如果说成为佛是孙悟空的宿命，那“是不是选择任何一个方向，都会游向同一个宿命？”在现实生活中，我们也渴望有选择的权利，但个人的能力毕竟有限，
+                                                很多选择的大门前都有无形的门槛。不是所有事情都能凭着满腔热血就能实现的，但如果不去奋斗一把，就连接近目标的可能都没有，更别说做自己想做的事。
+                                                《悟空传》和前段时间热映的电影《哪吒》有相似之处，都渴望打破人们的成见，用自己的观念去定位自己，撕掉所有标签，成为真正的自己。
+                                                这些作品在一定程度上颠覆了传统的人物形象和人物关系，对经典进行了现代化的创作。有人认为这类创作不尊重经典，但是我认为，经典之所以为经典，
+                                                不仅仅在与它源自传统文化，更在于它的意义深刻，能让人们根据时代的需要进行理解，使它在任何时代都能有独特的意义。
+                                                感谢《悟空传》给我带来的热血和感动，我也希望自己能永远有敢于挑战，坚持自我的勇气和毅力，成为真正的自己。    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="the-third-share" class="share">
+                                        <div class="ideas">
+                                            <div class="book-name">看见</div>
+                                            <div class="sharer">
+                                                <img class="smile" src="../pictures/images/smiley1.png" alt="smileone"/>
+                                                <div class="author">作者id:</div>
+                                                <div class="author_id">3315959</div>
+                                            </div>
+                                            <img class="share-cover" src="../pictures/images/thirdcover.jpg" alt="third-cover"/>
+                                            <div class="digest">看见你所看不到的世界</div>
+                                            <div class="detail">
+                                                知道和感觉到是两回事。我们面对同一个世界，却无法看见同一个世界。非典、自杀的小学生们、吸毒女、同性恋、家暴受害者、地震灾民、虐猫女、
+                                                药家鑫、征地问题，这些都曾有耳闻，之前总以简单道德化理科生思维去评判一切对错。而现在恍然明白，没有人是坏人，只是有些人做了坏事而已。
+                                                在先前的十九年岁月里，我会从周遭环境中接受诸多信息，耳濡目染之下，内心常常会形成固有的概念和成见，正是如此，才会在面对外界的种种现象时，
+                                                不假思索地加以批判，轻易地赞美，长期以往便形成教科书式的思维惯性。但这种评判往往是基于内心的概念和成见，也是源于对客观事实的不了解。
+                                                “不要自由，要独立。”去了解，去感受。把你身上蒙蔽你的概念和成见，一点一点像剥笋一样，一层一层剥开。如果你不试图去抵达独立这两字中的内涵，
+                                                就不足以匹配你这十几年当中生活从你身上流过和发生的事，如果带着强烈的预设和反感，你就没有办法真的认识这个人。真正渗入生活的态度应该是：关怀时寻找准确，
+                                                客观时拒绝凉薄。不要用道德衡量任何问题，真实自有万钧之力。  
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="comment">
+                                    <div class="comment-sum">
+                                        <div class="agree" onclick="changeColorSpeOne(this)" style="background-color:white;">
+                                            <div class="word">赞同&#9650;</div>
+                                        </div>
+                                        <div class="disagree" onclick="changeColorSpeTwo(this)" style="background-color:white;">
+                                            <div class="word-special">&#9660;</div>
+                                        </div>
+                                        <div class="share-with" onclick="openCom(this)" >
+                                            <div class="first-lay-icon">
+                                                <img class="comment-icon" src="../pictures/images/message.png"/>
+                                            </div>
+                                            <div class="word" id="open-comment" >打开评论</div>
+                                        </div>
+                                        <div class="share-with" onclick="changeColor(this)" style="background-color:white;">
+                                            <div class="second-lay-icon">
+                                                <img class="comment-icon" src="../pictures/images/share-comment.png"/>
+                                            </div>
+                                            <div class="word">分享一下</div>
+                                        </div>
+                                        <div class="share-with" id="collection" onclick="changeColor(this)" style="background-color:white;">
+                                            <div class="third-lay-icon">
+                                                <img class="comment-icon" src="../pictures/images/collect.png"/>
+                                            </div>
+                                            <div class="word">收藏文章</div>
+                                        </div>
+                                        <div class="share-with" id="thanks" onclick="changeColor(this)" style="background-color:white;">
+                                            <div class="fourth-lay-icon">
+                                                <img class="comment-icon" src="../pictures/images/thanks.png"/>
+                                            </div>
+                                            <div class="word">感谢分享</div>
+                                        </div>
+                                    </div>
+                                    <div class="comments-container">
+                                        <div class="comment-topbar">
+                                            <div class="top-bar-title">
+                                                1222评论
+                                            </div>
+                                        </div>
+                                        <div class="comment-list">
+                                            <div class="comment-list-header">
+                                                <div class="header-text">
+                                                    精选评论(
+                                                    12
+                                                    )
+                                                </div>
+                                            </div>
+                                            <ul class="nest-comment">
+                                                <li class="comment-content">
+                                                    <div class="commenter-meta">
+                                                        <span class="comment-id-img">
+                                                            <img src="../pictures/images/comment-id-img-one.jpg"/>
+                                                        </span>
+                                                        <span class="comment-id-name">
+                                                            绵酱
+                                                        </span>
+                                                        <span class="comment-time">
+                                                            五个月前
+                                                        </span>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        哇，这个分享看了深有感触哦！
+                                                    </div>
+                                                    <div class="comment-item">
+                                                        <span class="agree-icon">
+                                                            <img class="agree-icon-image" src="../pictures/images/agree-icon.png" />
+                                                        </span>
+                                                        <span class="agree-num">1562</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="nest-comment">
+                                                <li class="comment-content">
+                                                    <div class="commenter-meta">
+                                                        <span class="comment-id-img">
+                                                            <img src="../pictures/images/comment-id-img-two.jpg"/>
+                                                        </span>
+                                                        <span class="comment-id-name">
+                                                            在这里
+                                                        </span>
+                                                        <span class="comment-time">
+                                                            三天前
+                                                        </span>
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        想讲但是不敢讲
+                                                    </div>
+                                                    <div class="comment-item">
+                                                        <span class="agree-icon">
+                                                            <img class="agree-icon-image" src="../pictures/images/agree-icon.png"/>
+                                                        </span>
+                                                        <span class="agree-num">1562</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="more-content">
+                            <div class="more-introduction">更多推荐></div>
+                            <div class="more-intro-content">
+                                <div class="intro" >
+                                    <div class="intro-content" index=0 onmouseenter="shadowTrans(0)" onmouseleave="shadowOn(0)">
+                                        <div class="intro-title">
+                                            <div class="circle"></div>
+                                            <span class="intro-title-text">《红处方》--人性戒毒温暖未来</span>
+                                            <span class="intro-read-num">阅读数10万</span>
+                                        </div>
+                                        <div class="intro-text">
+                                            本书基于最新的红帽RHEL系统编写，且内容通用于CentOS、Fedora等系统。
+                                            本书共分为20章，内容涵盖了部署虚拟环境、安装Linux系统；常用的Linux命令；
+                                        </div>
+                                    </div>
+                                    
+                                </div><div class="shadow" id="intro1"></div>
+                                <div class="intro" >
+                                    <div class="intro-content" index=1 onmouseenter="shadowTrans(1)" onmouseleave="shadowOn(1)">
+                                        <div class="intro-title">
+                                            <div class="circle"></div>
+                                            <span class="intro-title-text">《红楼梦》--细腻独到深厚爱情</span>
+                                            <span class="intro-read-num">阅读数8999</span>
+                                        </div>
+                                        <div class="intro-text">
+                                            今风尘碌碌，一事无成，忽念及当日所有之女子，一一细考较去，觉其行止见识皆出于我之上。
+                                            何我堂堂须眉，诚不若彼裙钗哉？实愧则有馀，悔又无益之大无可如何之日也！----甄士隐语
+                                            这个人打扮与众姑娘不同，彩绣辉煌，恍若神妃仙子：头上戴着金丝八宝攒珠髻，绾着朝阳五凤挂珠钗，
+                                            项上戴着赤金盘螭璎珞圈，裙边系着豆绿宫绦，双衡比目玫瑰佩，身上穿着缕金百蝶穿花大红洋缎窄褃袄，外罩五彩刻丝石青银鼠。----王熙凤经典描写
+                                            头上戴着束发嵌宝紫金冠，齐眉勒着二龙抢珠金抹额，穿一件二色金百蝶穿花大红箭袖，束着五彩丝攒花结长穗宫绦，
+                                            外罩石青起花八团倭锻排穗褂，登着青缎粉底小朝靴。
+                                            面若中秋之月，色如春晓之花，鬓若刀裁，眉如墨画，面如桃瓣，目若秋波。虽怒时而若笑，即瞋视而有情。
+                                            项上金螭璎珞，又有一根五色丝绦，系着一块美玉---描述贾宝玉容貌
+                                            两弯似蹙非蹙罥烟眉，一双似喜非喜含情目。态生两靥之愁，娇袭一身之病。泪光点点，娇喘微微。
+                                            闲静时如姣花照水，行动处似弱柳扶风。心较比干多一窍，病如西子胜三分----描述林黛玉的容貌
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow" id="intro2"></div>
+                                <div class="intro" >
+                                    <div class="intro-content" index=2 onmouseenter="shadowTrans(2)" onmouseleave="shadowOn(2)">
+                                        <div class="intro-title">
+                                            <div class="circle"></div>
+                                            <span class="intro-title-text">《昆虫记》--了解世间许多圣灵</span>
+                                            <span class="intro-read-num">阅读数5633</span>
+                                        </div>
+                                        <div class="intro-text">
+                                        1.人不能在生命的旅程中一遇到拦路的荆棘，就把生命当成笨重碍事、一文不值的东西扔掉。
+                                        2.螳螂是一种美丽的昆虫，它像一位身材修长的少女，在烈日的草丛中它仪态端庄，
+                                        严肃半立前爪像人的手臂一样伸向天空，活脱脱一副很诚心诚意的祷告姿势。
+                                        3.四年黑暗的苦工，一月日光中的享乐，这就是蝉的生活，我们不应厌恶它歌声中的烦吵浮夸。
+                                        因为它掘土四年，现在忽然穿起漂亮的衣服，长起与飞鸟可以匹敌的翅膀，在温暖的日光中沐浴着。
+                                        那种钹的声音能高到足以歌颂它的快乐，如此难得，而又如此短暂。
+                                        4.梨紧贴着地板的部分,已经敷上了细沙。其余的部分,也已磨光得像玻璃一样,
+                                        这表明它还没有把梨子细细的滚过,不过是塑成形状罢了。
+                                        5.我已经说过,古代埃及人以为神圣甲虫的卵,是在我刚才叙述的圆球当中的。
+                                        这个已经我证明不是如此。关于甲虫被放卵的真实情形,有一天碰巧被我发现了。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow" id="intro3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mainb">
+                    <div class="title">二手书交易></div>
+                    <div class="old-book-content">
+                        <div class="trade_div">
+                            <div class="cover_info">
+                                <img class="cover" src="../pictures/imagea/old-book1.jpg">
+                                <div class="info">
+                                    <ul>
+                                        <li class="book_title">书名：</li>
+                                        <li>
+                                            <span>价格：</span>
+                                            <span class="price">￥30</span>
+                                        </li>
+                                        <div class="account_div">
+                                            <li>出书人：</li>
+                                            <li class="account">12345</li>
+                                        </div>
+                                        
+                                        <li class="showdetail">查看详情...</li>
+                                    </ul>
+                                    <div class="reason">
+                                        <div class="reason_title">原因：</div>
+                                        <div class="reason_info">
+                                            习近平总书记在纪念马克思诞辰200周年大会上曾指出：“马克思是全世界无
+                                            产阶级和劳动人民的革命导师，是马克思主义的主要创始人，是马克思主义
+                                            政党的缔造者和国际共产主义的开创者，
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <span class="button">想买</span>
+                                <span class="button">已有</span>
+                            </div>
+                        </div>
+                        <div class="trade_div">
+                            <div class="cover_info">
+                                <img class="cover" src="../pictures/imagea/old-book2.jpg">
+                                <div class="info">
+                                    <ul>
+                                        <li class="book_title">书名：</li>
+                                        <li>
+                                            <span>价格：</span>
+                                            <span class="price">￥30</span>
+                                        </li>
+                                        <div class="account_div">
+                                            <li>出书人：</li>
+                                            <li class="account">12345</li>
+                                        </div>
+                                        <li class="showdetail">查看详情...</li>
+                                    </ul>
+                                    <div class="reason">
+                                        <div class="reason_title">原因：</div>
+                                        <div class="reason_info">
+                                            习近平总书记在纪念马克思诞辰200周年大会上曾指出：“马克思是全世界无
+                                            产阶级和劳动人民的革命导师，是马克思主义的主要创始人，是马克思主义
+                                            政党的缔造者和国际共产主义的开创者，
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <span class="button">想买</span>
+                                <span class="button">已有</span>
+                            </div>
+                        </div>
+                        <div class="trade_div">
+                            <div class="cover_info">
+                                <img class="cover" src="../pictures/imagea/old-book3.jpg">
+                                <div class="info">
+                                    <ul>
+                                        <li class="book_title">书名：</li>
+                                        <li>
+                                            <span>价格：</span>
+                                            <span class="price">￥30</span>
+                                        </li>
+                                        <div class="account_div">
+                                            <li>出书人：</li>
+                                            <li class="account">12345</li>
+                                        </div>
+                                        <li class="showdetail">查看详情...</li>
+                                    </ul>
+                                    <div class="reason">
+                                        <div class="reason_title">原因：</div>
+                                        <div class="reason_info">
+                                            习近平总书记在纪念马克思诞辰200周年大会上曾指出：“马克思是全世界无
+                                            产阶级和劳动人民的革命导师，是马克思主义的主要创始人，是马克思主义
+                                            政党的缔造者和国际共产主义的开创者，
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <span class="button">想买</span>
+                                <span class="button">已有</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-book-content">
+                        <div class="trade_div">
+                            <div class="cover_info">
+                                <img class="cover" src="../pictures/imagea/old-book4.jpg">
+                                <div class="info">
+                                    <ul>
+                                        <li class="book_title">书名：</li>
+                                        <li>
+                                            <span>价格：</span>
+                                            <span class="price">￥30</span>
+                                        </li>
+                                        <div class="account_div">
+                                            <li>出书人：</li>
+                                            <li class="account">12345</li>
+                                        </div>
+                                        <li class="showdetail">查看详情...</li>
+                                    </ul>
+                                    <div class="reason">
+                                        <div class="reason_title">原因：</div>
+                                        <div class="reason_info">
+                                            习近平总书记在纪念马克思诞辰200周年大会上曾指出：“马克思是全世界无
+                                            产阶级和劳动人民的革命导师，是马克思主义的主要创始人，是马克思主义
+                                            政党的缔造者和国际共产主义的开创者，
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <span class="button">想买</span>
+                                <span class="button">已有</span>
+                            </div>
+                        </div>
+                        <div class="trade_div">
+                            <div class="cover_info">
+                                <img class="cover" src="../pictures/imagea/old-book5.jpg">
+                                <div class="info">
+                                    <ul>
+                                        <li class="book_title">书名：</li>
+                                        <li>
+                                            <span>价格：</span>
+                                            <span class="price">￥30</span>
+                                        </li>
+                                        <div class="account_div">
+                                            <li>出书人：</li>
+                                            <li class="account">12345</li>
+                                        </div>
+                                       
+                                        <li class="showdetail">查看详情...</li>
+                                    </ul>
+                                    <div class="reason">
+                                        <div class="reason_title">原因：</div>
+                                        <div class="reason_info">
+                                            习近平总书记在纪念马克思诞辰200周年大会上曾指出：“马克思是全世界无
+                                            产阶级和劳动人民的革命导师，是马克思主义的主要创始人，是马克思主义
+                                            政党的缔造者和国际共产主义的开创者，
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <span class="button">想买</span>
+                                <span class="button">已有</span>
+                            </div>
+                        </div>
+                        <div class="trade_div">
+                            <div class="cover_info">
+                                <img class="cover" src="../pictures/imagea/old-book6.jpg">
+                                <div class="info">
+                                    <ul>
+                                        <li class="book_title">书名：</li>
+                                        <li>
+                                            <span>价格：</span>
+                                            <span class="price">￥30</span>
+                                        </li>
+                                        <div class="account_div">
+                                            <li>出书人：</li>
+                                            <li class="account">12345</li>
+                                        </div>
+                                       
+                                        <li class="showdetail">查看详情...</li>
+                                    </ul>
+                                    <div class="reason">
+                                        <div class="reason_title">原因：</div>
+                                        <div class="reason_info">
+                                            习近平总书记在纪念马克思诞辰200周年大会上曾指出：“马克思是全世界无
+                                            产阶级和劳动人民的革命导师，是马克思主义的主要创始人，是马克思主义
+                                            政党的缔造者和国际共产主义的开创者，
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <span class="button">想买</span>
+                                <span class="button">已有</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ending">
+                    
+                    <span class="ending-text">
+                        ★Copyright © 
+                    </span>
+                    <span class="ending-text-strong">
+                        Hot Water
+                    </span>
+                    <span class="ending-text">
+                        All Rights Reserved★
+                    </span>
+                </div>
+                <img class="dongtu" src="../pictures/image/dongtu(1).gif"/>
+            </div>
+            <div id="pg2"><progress max="100" value="0" id="pg" ></progress></div>
+        </div>
+        <div class="right">
+            <ul class="right_ul">
+                <li>
+                    <li class="qq" ></li>
+                </li>
+                <li>
+                    <li class="wechat" ></li>
+                </li>
+                <li>
+                    <li class="weibo"></li>
+                </li>
+            </ul>
+        </div>
+        <div class="frame-background">
+            <div class="frame">
+                <img id="frame-close" src="../pictures/image/close 2.png"/> 
+                <div class="frame-text">Contact Us</div>
+                <img id="frame-img"/>
+            </div>
+        </div>
+        <div id="books_intro">
+            <div id="books_intro_guiders">
+                <div id="little-prince" class="books_intro_guider"style="background-color: #91a2b5;">小王子</div>
+                <div id="white-black" class="books_intro_guider" style="position: relative;top: -0.15rem;">白夜行</div>
+                <div id="three-body" class="books_intro_guider" style="position: relative;top: -0.3rem;background-color: #af837a;">三体</div>
+                <div id="street"class="books_intro_guider" style="position: relative;top: -0.45rem;background-color: #6e5aa7;">查令街</div>
+                <div id="journey-west" class="books_intro_guider" style="position: relative;top: -0.6rem;background-color: #dd5a50;border-radius: 0.2rem;">悟空传</div>
+            </div>
+            <div id="threeintro_main">
+                <div class="sort">
+                    科幻类 >
+                </div>
+                <div class="threebody_title">
+                    三体
+                </div>
+                <div class="threebody_introduction">
+                    <div class="threebody_cover">
+                        <img src="../pictures/image/threebody.jpg">
+                    </div>
+                    <div class="main_intro">
+                        <div class="info_rate">
+                            <div class="information">
+                                <ul>
+                                    <li>作者：[中]刘慈欣</li>
+                                    <li>出版社：重庆出版社</li>
+                                    <li>出版年：2008-1</li>
+                                    <li>页数：302</li>
+                                    <li>定价：23.00</li>
+                                </ul> 
+                            </div>
+                            <div class="rate">
+                                <ul>
+                                    <li class="rating_title">评分：
+                                    </li>
+                                    <li>5星
+                                        <span class="one_rating_per"></span>
+                                        <span class="rating_num">60.4%</span>
+                                    </li>
+                                    <li>4星
+                                        <span class="two_rating_per"></span>
+                                        <span class="rating_num">31.3%</span>
+                                    </li>
+                                    <li>3星
+                                        <span class="three_rating_per"></span>
+                                        <span class="rating_num">7.1%</span>
+                                    </li>
+                                    <li>2星
+                                        <span class="four_rating_per"></span>
+                                        <span class="rating_num">0.8%</span>
+                                    </li>
+                                    <li>1星
+                                        <span class="five_rating_per"></span>
+                                        <span class="rating_num">0.4%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="goback">
+                            返回
+                        </div>
+                        <div class="acount_idea">
+                            <div class="threebody_buttons">
+                                <span class="threebody_button">想读</span>
+                                <span class="threebody_button">在读</span>
+                                <span class="threebody_button">读过</span>
+                            </div>
+                            <div class="acount_rating">
+                                您的评价：
+                                <span class="stars">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="book_introduction">
+                    <div class="book_introduction_title">书本简介</div>
+                    <div class="book_introduction_font">
+                        《三体》是刘慈欣创作的系列长篇科幻小说，由《三体》、《三体Ⅱ·黑暗森林》、《三体Ⅲ·死神永生》组成，
+                        第一部于2006年5月起在《科幻世界》杂志上连载，第二部于2008年5月首次出版，第三部则于2010年11月出版。
+                        作品讲述了地球人类文明和三体文明的信息交流、生死搏杀及两个文明在宇宙中的兴衰历程。
+                        其第一部经过刘宇昆翻译后获得了第73届雨果奖最佳长篇小说奖
+                    </div>
+                </div>
+                <div class="writer_introduction">
+                    <div class="writer_introduction_title">作者简介</div>
+                    <div class="writer_introduction_font">
+                            刘慈欣（1963年6月23日－），中国当代科幻作家，自上世纪80年代中期开始创作，1999年6月起在
+                            《科幻世界》杂志上发表多篇科幻小说和科幻随笔，并出版了多部长篇科幻小说，现为中国科普作家协会会员，
+                            山西省作家协会副主席，阳泉市作协副主席。其代表作有长篇小说《超新星纪元》、《球状闪电》、《三体》、
+                            《三体II：黑暗森林》、《三体III：死神永生》，中短篇小说《流浪地球》、《乡村教师》、《朝闻道》等。
+                            刘慈欣目前是中国最有影响力的本土科幻作家之一。
+                    </div>
+                </div>
+                <div class="others_rate">
+                    <div class="others_rate_title">读者评论</div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            刘慈欣目前是中国最有影响力的本土科幻作家之一。
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            刘慈欣（1963年6月23日－），中国当代科幻作家，自上世纪80年代中期开始创作，
+                            1999年6月起在《科幻世界》杂志上发表多篇科幻小说和科幻随笔，并出版了多部
+                            长篇科幻小说，现为中国科普作家协会会员
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            刘慈欣（1963年6月23日－），中国当代科幻作家，自上世纪80年代中期开始创作，
+                            1999年6月
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div id="baiyexing_main">
+                <div class="sort">
+                    悬疑类 >
+                </div>
+                <div class="threebody_title">
+                    白夜行
+                </div>
+                <div class="threebody_introduction">
+                    <div class="threebody_cover">
+                        <img src="../pictures/image/baiyexing.jpg">
+                    </div>
+                    <div class="main_intro">
+                        <div class="info_rate">
+                            <div class="information">
+                                <ul>
+                                    <li>作者：[日]东野圭吾</li>
+                                    <li>出版社：南海出版公司</li>
+                                    <li>出版年：2008-9</li>
+                                    <li>页数：467</li>
+                                    <li>定价：29.80</li>
+                                </ul> 
+                            </div>
+                            <div class="rate">
+                                <ul>
+                                    <li class="rating_title">评分：
+                                    </li>
+                                    <li>5星
+                                        <span class="one_rating_per"></span>
+                                        <span class="rating_num">60.4%</span>
+                                    </li>
+                                    <li>4星
+                                        <span class="two_rating_per"></span>
+                                        <span class="rating_num">31.3%</span>
+                                    </li>
+                                    <li>3星
+                                        <span class="three_rating_per"></span>
+                                        <span class="rating_num">7.1%</span>
+                                    </li>
+                                    <li>2星
+                                        <span class="four_rating_per"></span>
+                                        <span class="rating_num">0.8%</span>
+                                    </li>
+                                    <li>1星
+                                        <span class="five_rating_per"></span>
+                                        <span class="rating_num">0.4%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="goback">
+                            返回
+                        </div>
+                        <div class="acount_idea">
+                            <div class="threebody_buttons">
+                                <span class="threebody_button">想读</span>
+                                <span class="threebody_button">在读</span>
+                                <span class="threebody_button">读过</span>
+                            </div>
+                            <div class="acount_rating">
+                                您的评价：
+                                <span class="stars">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="book_introduction">
+                    <div class="book_introduction_title">书本简介</div>
+                    <div class="book_introduction_font">
+                        “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子，随着无数凌乱、
+                        压抑、悲凉的故事片段像纪录片一样一一还原：没有痴痴相思，没有海枯石烂，只剩下一个冰冷绝望的诡计，
+                        最后一丝温情也被完全抛弃，万千读者在一曲救赎罪恶的凄苦爱情中悲切动容……
+                    </div>
+                </div>
+                <div class="writer_introduction">
+                    <div class="writer_introduction_title">作者简介</div>
+                    <div class="writer_introduction_font">
+                        东野圭吾，日本著名作家。1958年生于大阪。1985年，以第31届江户川乱步奖获奖作品《放学后》出道，
+                        开始扬名立万。20年作品逾60部，几乎囊括日本所有大奖：1999年，《秘密》获第52届日本推理作家协会奖，
+                        入围第120届直木奖；2000年，《白夜行》入围第122届直木奖；2001年，《暗恋》入围第125届直木奖；
+                        2004年，《幻夜》入围第131届直木奖；2006年的《嫌疑人X的献身》，获得第134届直木奖、第6届本格推理
+                        小说大奖。
+                        《白夜行》出版之后引起巨大轰动，使东野圭吾成为天王级作家。小说被改编成同名电视连续剧，与图书一同为作家带来了如潮好评，使他成为日本、韩国与台湾等地最受欢迎的作家之一。
+                    </div>
+                </div>
+                <div class="others_rate">
+                    <div class="others_rate_title">读者评论</div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            东野圭吾，日本著名作家。1958年生于大阪
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子，随着无数凌乱、
+                        压抑、悲凉的故事片段像纪录片一样一一还原
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div id="littleprince_main">
+                <div class="sort">
+                    童话类 >
+                </div>
+                <div class="threebody_title">
+                    小王子
+                </div>
+                <div class="threebody_introduction">
+                    <div class="threebody_cover">
+                        <img src="../pictures/image/littleprince.jpg">
+                    </div>
+                    <div class="main_intro">
+                        <div class="info_rate">
+                            <div class="information">
+                                <ul>
+                                    <li>作者：[法] 圣埃克苏佩里 / [法] 安东尼·德·圣-埃克苏佩里</li>
+                                    <li>出版社：人民文学出版社</li>
+                                    <li>出版年：2003-8</li>
+                                    <li>页数：97</li>
+                                    <li>定价：22.00</li>
+                                </ul> 
+                            </div>
+                            <div class="rate">
+                                <ul>
+                                    <li class="rating_title">评分：
+                                    </li>
+                                    <li>5星
+                                        <span class="one_rating_per"></span>
+                                        <span class="rating_num">60.4%</span>
+                                    </li>
+                                    <li>4星
+                                        <span class="two_rating_per"></span>
+                                        <span class="rating_num">31.3%</span>
+                                    </li>
+                                    <li>3星
+                                        <span class="three_rating_per"></span>
+                                        <span class="rating_num">7.1%</span>
+                                    </li>
+                                    <li>2星
+                                        <span class="four_rating_per"></span>
+                                        <span class="rating_num">0.8%</span>
+                                    </li>
+                                    <li>1星
+                                        <span class="five_rating_per"></span>
+                                        <span class="rating_num">0.4%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="goback">
+                            返回
+                        </div>
+                        <div class="acount_idea">
+                            <div class="threebody_buttons">
+                                <span class="threebody_button">想读</span>
+                                <span class="threebody_button">在读</span>
+                                <span class="threebody_button">读过</span>
+                            </div>
+                            <div class="acount_rating">
+                                您的评价：
+                                <span class="stars">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="book_introduction">
+                    <div class="book_introduction_title">书本简介</div>
+                    <div class="book_introduction_font">
+                        小王子是一个超凡脱俗的仙童，他住在一颗只比他大一丁点儿的小行星上。陪伴他的是一朵他非常喜爱的小玫瑰花。
+                        但玫瑰花的虚荣心伤害了小王子对她的感情。小王子告别小行星，开始了遨游太空的旅行。他先后访问了六个行星，
+                        各种见闻使他陷入忧伤，他感到大人们荒唐可笑、太不正常。只有在其中一个点灯人的星球上，小王子才找到一个
+                        可以作为朋友的人。但点灯人的天地又十分狭小，除了点灯人他自己，不能容下第二个人。在地理学家的指点下，
+                        孤单的小王子来到人类居住的地球。
+                    </div>
+                </div>
+                <div class="writer_introduction">
+                    <div class="writer_introduction_title">作者简介</div>
+                    <div class="writer_introduction_font">
+                        安托万·德·圣埃克苏佩里（Antoine de Saint-Exupery, 1900-1944）1900年6月29日出生在法国里昂。他曾经有
+                        志于报考海军学院，未能如愿，却有幸成了空军的一员。1923年退役后，先后从事过各种不同的职业。1926年，圣埃
+                        克苏佩里进入拉泰科埃尔航空公司。在此期间，出版小说《南方邮件》（1929）、《夜航》（1931），从此他在文学
+                        上声誉鹊起。1939年，又一部作品《人的大地》问世。第二次世界大战期间他重入法国空军。后辗转去纽约开始流亡生活
+                        。在这期间，写出《空军飞行员》、《给一个人质的信》、《小王子》（1943）等作品。1944年返回同盟国地中海空军部
+                        队。在当年7月31日的一次飞行任务中，他驾驶飞机飞上湛蓝的天空，就此再也没有回来。
+                    </div>
+                </div>
+                <div class="others_rate">
+                    <div class="others_rate_title">读者评论</div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            东野圭吾，日本著名作家。1958年生于大阪
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子，随着无数凌乱、
+                        压抑、悲凉的故事片段像纪录片一样一一还原
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div id="street_main">
+                <div class="sort">
+                   记叙类 >
+                </div>
+                <div class="threebody_title">
+                    查令十字街84号
+                </div>
+                <div class="threebody_introduction">
+                    <div class="threebody_cover">
+                        <img src="../pictures/image/street.png">
+                    </div>
+                    <div class="main_intro">
+                        <div class="info_rate">
+                            <div class="information">
+                                <ul>
+                                    <li>作者：[美] 海莲·汉芙</li>
+                                    <li>出版社：人民文学出版社</li>
+                                    <li>出版年：1970年</li>
+                                    <li>页数：97</li>
+                                    <li>定价：22.00</li>
+                                </ul> 
+                            </div>
+                            <div class="rate">
+                                <ul>
+                                    <li class="rating_title">评分：
+                                    </li>
+                                    <li>5星
+                                        <span class="one_rating_per"></span>
+                                        <span class="rating_num">60.4%</span>
+                                    </li>
+                                    <li>4星
+                                        <span class="two_rating_per"></span>
+                                        <span class="rating_num">31.3%</span>
+                                    </li>
+                                    <li>3星
+                                        <span class="three_rating_per"></span>
+                                        <span class="rating_num">7.1%</span>
+                                    </li>
+                                    <li>2星
+                                        <span class="four_rating_per"></span>
+                                        <span class="rating_num">0.8%</span>
+                                    </li>
+                                    <li>1星
+                                        <span class="five_rating_per"></span>
+                                        <span class="rating_num">0.4%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="goback">
+                            返回
+                        </div>
+                        <div class="acount_idea">
+                            <div class="threebody_buttons">
+                                <span class="threebody_button">想读</span>
+                                <span class="threebody_button">在读</span>
+                                <span class="threebody_button">读过</span>
+                            </div>
+                            <div class="acount_rating">
+                                您的评价：
+                                <span class="stars">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="book_introduction">
+                    <div class="book_introduction_title">书本简介</div>
+                    <div class="book_introduction_font">
+                        小王子是一个超凡脱俗的仙童，他住在一颗只比他大一丁点儿的小行星上。陪伴他的是一朵他非常喜爱的小玫瑰花。
+                        但玫瑰花的虚荣心伤害了小王子对她的感情。小王子告别小行星，开始了遨游太空的旅行。他先后访问了六个行星，
+                        各种见闻使他陷入忧伤，他感到大人们荒唐可笑、太不正常。只有在其中一个点灯人的星球上，小王子才找到一个
+                        可以作为朋友的人。但点灯人的天地又十分狭小，除了点灯人他自己，不能容下第二个人。在地理学家的指点下，
+                        孤单的小王子来到人类居住的地球。
+                    </div>
+                </div>
+                <div class="writer_introduction">
+                    <div class="writer_introduction_title">作者简介</div>
+                    <div class="writer_introduction_font">
+                        安托万·德·圣埃克苏佩里（Antoine de Saint-Exupery, 1900-1944）1900年6月29日出生在法国里昂。他曾经有
+                        志于报考海军学院，未能如愿，却有幸成了空军的一员。1923年退役后，先后从事过各种不同的职业。1926年，圣埃
+                        克苏佩里进入拉泰科埃尔航空公司。在此期间，出版小说《南方邮件》（1929）、《夜航》（1931），从此他在文学
+                        上声誉鹊起。1939年，又一部作品《人的大地》问世。第二次世界大战期间他重入法国空军。后辗转去纽约开始流亡生活
+                        。在这期间，写出《空军飞行员》、《给一个人质的信》、《小王子》（1943）等作品。1944年返回同盟国地中海空军部
+                        队。在当年7月31日的一次飞行任务中，他驾驶飞机飞上湛蓝的天空，就此再也没有回来。
+                    </div>
+                </div>
+                <div class="others_rate">
+                    <div class="others_rate_title">读者评论</div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            东野圭吾，日本著名作家。1958年生于大阪
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子，随着无数凌乱、
+                        压抑、悲凉的故事片段像纪录片一样一一还原
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="wukong_main">
+                <div class="sort">
+                   网络小说类 >
+                </div>
+                <div class="threebody_title">
+                    悟空传
+                </div>
+                <div class="threebody_introduction">
+                    <div class="threebody_cover">
+                        <img src="../pictures/image/wukong.jpg">
+                    </div>
+                    <div class="main_intro">
+                        <div class="info_rate">
+                            <div class="information">
+                                <ul>
+                                    <li>作者：今何在</li>
+                                    <li>出版社：金庸客栈</li>
+                                    <li>出版年：2000</li>
+                                    <li>页数：97</li>
+                                    <li>定价：22.00</li>
+                                </ul> 
+                            </div>
+                            <div class="rate">
+                                <ul>
+                                    <li class="rating_title">评分：
+                                    </li>
+                                    <li>5星
+                                        <span class="one_rating_per"></span>
+                                        <span class="rating_num">60.4%</span>
+                                    </li>
+                                    <li>4星
+                                        <span class="two_rating_per"></span>
+                                        <span class="rating_num">31.3%</span>
+                                    </li>
+                                    <li>3星
+                                        <span class="three_rating_per"></span>
+                                        <span class="rating_num">7.1%</span>
+                                    </li>
+                                    <li>2星
+                                        <span class="four_rating_per"></span>
+                                        <span class="rating_num">0.8%</span>
+                                    </li>
+                                    <li>1星
+                                        <span class="five_rating_per"></span>
+                                        <span class="rating_num">0.4%</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="goback">
+                            返回
+                        </div>
+                        <div class="acount_idea">
+                            <div class="threebody_buttons">
+                                <span class="threebody_button">想读</span>
+                                <span class="threebody_button">在读</span>
+                                <span class="threebody_button">读过</span>
+                            </div>
+                            <div class="acount_rating">
+                                您的评价：
+                                <span class="stars">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                    <img class="star" src="../pictures/image/star.png">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="book_introduction">
+                    <div class="book_introduction_title">书本简介</div>
+                    <div class="book_introduction_font">
+                        小王子是一个超凡脱俗的仙童，他住在一颗只比他大一丁点儿的小行星上。陪伴他的是一朵他非常喜爱的小玫瑰花。
+                        但玫瑰花的虚荣心伤害了小王子对她的感情。小王子告别小行星，开始了遨游太空的旅行。他先后访问了六个行星，
+                        各种见闻使他陷入忧伤，他感到大人们荒唐可笑、太不正常。只有在其中一个点灯人的星球上，小王子才找到一个
+                        可以作为朋友的人。但点灯人的天地又十分狭小，除了点灯人他自己，不能容下第二个人。在地理学家的指点下，
+                        孤单的小王子来到人类居住的地球。
+                    </div>
+                </div>
+                <div class="writer_introduction">
+                    <div class="writer_introduction_title">作者简介</div>
+                    <div class="writer_introduction_font">
+                        安托万·德·圣埃克苏佩里（Antoine de Saint-Exupery, 1900-1944）1900年6月29日出生在法国里昂。他曾经有
+                        志于报考海军学院，未能如愿，却有幸成了空军的一员。1923年退役后，先后从事过各种不同的职业。1926年，圣埃
+                        克苏佩里进入拉泰科埃尔航空公司。在此期间，出版小说《南方邮件》（1929）、《夜航》（1931），从此他在文学
+                        上声誉鹊起。1939年，又一部作品《人的大地》问世。第二次世界大战期间他重入法国空军。后辗转去纽约开始流亡生活
+                        。在这期间，写出《空军飞行员》、《给一个人质的信》、《小王子》（1943）等作品。1944年返回同盟国地中海空军部
+                        队。在当年7月31日的一次飞行任务中，他驾驶飞机飞上湛蓝的天空，就此再也没有回来。
+                    </div>
+                </div>
+                <div class="others_rate">
+                    <div class="others_rate_title">读者评论</div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            东野圭吾，日本著名作家。1958年生于大阪
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子，随着无数凌乱、
+                        压抑、悲凉的故事片段像纪录片一样一一还原
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                    <div class="others_rating">
+                        <div class="rate_phara">
+                            “只希望能手牵手在太阳下散步”，这个象征故事内核的绝望念想，有如一个美丽的幌子
+                        </div>
+                        <div class="rate_account">
+                            —————用户123456
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="leaves"></div>
+        <div id="welcomebox">
+            <h2 id="welcome">Welcome to our online library</h2>
+        </div>
+        <div class="position">
+            <div class="first-page"></div>
+            <div class="share-with-you"></div>
+            <div class="trade-this"></div>
+        </div>
+    </body>
+    <script>
+        let a=document.getElementById('welcomebox');
+        let body=document.getElementById('body');
+        function b(){
+            a.parentNode.removeChild(a);
+            body.style.overflow='auto';
+            body.style.textAlign='left';
+            body.style.zIndex=0;
+        }
+        setTimeout("b();",3000);
+    </script>
+    <script type="text/javascript" src="leave.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="share.js"></script>
+    <script type="text/javascript" src="oldbook.js"></script>
+    <script type="text/javascript" src="threebody_introduction.js"></script>
+    </html>
